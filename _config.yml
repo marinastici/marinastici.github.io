@@ -1,2 +1,12 @@
+title: Pro Essence Studio
+email: myemail@example.com
+description: Pro Essence Studio.
+baseurl: "/" 
 
 theme: minima
+
+defaults:
+  - scope:
+      path: "" # All files
+    values:
+      layout: "default"

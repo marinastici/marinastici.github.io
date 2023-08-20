@@ -10,4 +10,4 @@ url: "https://proessence.me" # the base hostname & protocol for your site
 markdown: kramdown
 theme: minima
 
-
+assets: ["assets/main.scss"]

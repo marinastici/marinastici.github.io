@@ -8,7 +8,7 @@ url: "https://proessence.me" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-theme: pixyll
+theme: minimal
 
 # Author settings
 author:

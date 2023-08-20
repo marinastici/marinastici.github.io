@@ -1,12 +1,54 @@
+# Site settings
 title: Pro.Essence Studio
-email: myemail@example.com
-description: asdfff
-baseurl: "/" 
+email: hello@proessence.me
+description: >- # this means to ignore newlines until "baseurl:"
+  Uncover the essence of your product.
+baseurl: "/" # the subpath of your site, e.g. /blog. If there isn't one, just leave as an empty string.
+url: "https://proessence.me" # the base hostname & protocol for your site
 
-theme: minima
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-pixyll
 
-defaults:
-  - scope:
-      path: "" # All files
-    values:
-      layout: "default"
+# Author settings
+author:
+  name: Marina Stici
+  bio: A short bio about yourself.
+  location: City, Country
+  email: your_email@example.com
+  twitter_username: your_twitter_handle
+  github_username:  your_github_handle
+  google_analytics: UA-XXXXXX-Y
+
+# Post settings
+paginate: 5 # number of posts to show on one page
+paginate_path: "/page:num/"
+
+# Navigation settings
+menu:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Other settings (e.g., Sass preprocessing)
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+

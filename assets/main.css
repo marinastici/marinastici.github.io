@@ -6,3 +6,25 @@
 body {
   background-color: #EBB9E5;
 }
+
+/* Change the background color of the header */
+.site-header {
+  background-color: #D9C7AB;
+}
+
+/* Change the text color inside the header 
+.site-header a, .site-header h1 a {
+  color: #YOUR_HEADER_TEXT_COLOR_CODE;
+}
+*/
+
+/* Change the background color of the footer */
+.site-footer {
+  background-color: #D9C7AB;
+}
+
+/* Change the text color inside the footer 
+.site-footer a {
+  color: #YOUR_FOOTER_TEXT_COLOR_CODE;
+}
+*/
